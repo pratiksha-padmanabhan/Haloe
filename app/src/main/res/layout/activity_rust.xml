@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+android:background="@color/mintgreen"
+    android:padding="15dp"
+    android:layout_marginBottom="15dp"
+
+    >
+
+<TextView
+    android:layout_width="380dp"
+    android:layout_height="90dp"
+    android:text="RUST"
+    android:background="@drawable/border"
+    android:textAlignment="center"
+    android:paddingTop="5dp"
+
+    android:textSize="60dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    />
+
+<ScrollView
+    android:paddingTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="616dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:orientation="vertical">
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:textColor="@color/black"
+            android:text="what causes rust?"
+            android:textSize="30.5dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+
+            />
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:background="@color/mintgreen"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:justificationMode="none"
+        android:fontFamily="monospace"
+        android:lineHeight="22.5dp"
+        android:text="Rust disease is caused by a fungal parasite that needs living plants to survive. Rust diseases occur most often in mild, moist conditions. Rust is spread by spores that are transferred from infected plants to healthy plants. These spores can be transferred either by the wind or by water, which is why rust disease often spreads after watering. Wet surfaces are also needed to cause infections."
+
+
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:text="RUST FUNGI control"
+        android:textSize="30.5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+
+        />
+
+    <TextView
+android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:background="@color/mintgreen"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:justificationMode="none"
+        android:fontFamily="monospace"
+        android:lineHeight="22.5dp"
+        android:text="1. Remove all infected parts and destroy them.\n2. For bramble fruits, remove and destroy all the infected plants and replant the area with resistant varieties.
+Clean away all debris in between plants to prevent rust from spreading.\n3. Avoid splashing water onto the leaves, as this can help spread rust."
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:textColor="@color/black"
+        android:text="RUST PREVENTION"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+
+        />
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:background="@color/mintgreen"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:justificationMode="none"
+        android:fontFamily="monospace"
+        android:lineHeight="22.5dp"
+        android:text="1. Dust your plants with sulfur early in the season to prevent infection or to keep mild infections from spreading.\n2. Space your plants properly to encourage good air circulation.\n3. Avoid wetting the leaves when watering plants.\n4. There are many effective rust fungicides you can try. Ask your local nursery for which products you should use."
+ />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

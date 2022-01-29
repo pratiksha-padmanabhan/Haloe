@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/mintgreen"
+    android:padding="15dp"
+
+    >
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="90dp"
+        android:text="HEALTHY"
+        android:background="@drawable/border"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+    <ScrollView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="616dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:orientation="vertical">
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:textColor="@color/black"
+                android:text="GENERAL TIPS!"
+                android:textSize="30.5dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+
+                />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="510dp"
+                android:background="@color/mintgreen"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+                android:text="CONGRATULATIONS! \n\nYour plants are healthy! \n\nHere are some tips to maintain them:\n1. Examine plants carefully before buying\n2. Use fully composted yard waste\n3. Keep an eye on your bugs\n4. Clean up in the fall\n5. Apply the correct fertilizer\n6. Plant disease-resistant varieties\n7. Prune damaged limbs at the right time\n8. Choose and site plants appropriately\n9. Water properly and water the right amount
+\n10. Don’t crowd plants and give them space to grow"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

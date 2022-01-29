@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/mintgreen"
+    android:padding="15dp"
+    android:layout_marginBottom="10dp"
+
+    >
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="90dp"
+        android:text="multiple diseases"
+        android:background="@drawable/border"
+        android:textAlignment="center"
+        android:paddingTop="22.5dp"
+        android:textAllCaps="true"
+
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/PINk"
+        />
+
+    <ScrollView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="616dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:orientation="vertical">
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:textColor="@color/black"
+                android:text="what causes it?"
+                android:textSize="30.5dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+
+                />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+                android:text="Infectious plant diseases are caused by living (biotic) agents, or pathogens. These pathogens can be spread from an infected plant or plant debris to a healthy plant. Microorganisms that cause plant diseases include nematodes, fungi, bacteria, and mycoplasmas. "
+
+
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:text="disease control"
+                android:textSize="30.5dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <TextView
+
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="750dp"
+
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+android:text="1. Chemical control: A variety of chemicals are available that have been designed to control plant diseases by inhibiting the growth of or by killing the disease-causing pathogens. Chemicals used to control bacteria (bactericides), fungi (fungicides), and nematodes (nematicides) may be applied to seeds, foliage, flowers, fruit, or soil. They prevent or reduce infections by utilizing various principles of disease control.\n\n2.Biological Control:  Citrus trees are inoculated with an attenuated strain of tristeza virus, which effectively controls the virulent strain that causes diseases. An avirulent strain of Agrobacterium radiobacter (K84) can be applied to plant wounds to prevent crown gall caused by infection with Agrobacterium tumefaciens. Many more specific antagonists are being investigated and hold much promise for future control of disease.\n\n3. Therapy: The recent development of systemic fungicides such as oxathiins, benzimidazoles, and pyrimidines have enabled growers to treat many plants after an infection has begun. Systemic chemicals are absorbed by and translocated within the plant, restricting the spread and development of pathogens by direct or indirect toxic effects or by increasing the ability of the host to resist infection. "/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:text="disease PREVENTION"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+
+                />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="950dp"
+
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+                android:text="Garden sanitation aims to remove the source of future disease infections by means of a thorough clean up program.  Common fungus diseases like peach leaf curl, brown rot, apple scab, camellia petal blight, and black spot on roses will reappear the next season because the fungus spores survive over winter in dead leaves, rotting or mummified fruit and other plant debris left behind the previous Fall.  Disease pathogens can also survive in older mulching material laid out in previous years.  If a serious fungus infection exists, such as Camellia Petal Blight, remove old mulch and replace with fresh material.  Grab a rake and get out into the garden for a clean up day before first rainfall for best results.  Dispose of any suspect plant debris.Removal of diseased plant tissues on the plant itself is your next line of defense.  Prune out diseased foliage, twigs or branches, hand pick blighted camellia blossoms as they appear and dispose of these in the trash.  Avoid unnecessary pruning; pruning causes wounds, which can be entry sites for decay and disease organisms.  Sanitize pruning equipment to avoid transmitting disease to healthy plants.Avoid overhead irrigation – splashing water spreads fungal spores and wet foliage promotes some foliar and fruit diseases such as leaf spots, rusts, anthracnose, and brown rot.Finally, follow up with preventative applications of a fungicidal spray.  This is an especially critical step in the control of peach leaf curl and other recurring diseases.  Synthetic and organically acceptable spray materials are available to control certain plant pathogens, primarily fungi."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

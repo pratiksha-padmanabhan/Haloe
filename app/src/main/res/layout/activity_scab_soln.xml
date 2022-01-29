@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/mintgreen"
+    android:padding="15dp"
+
+    >
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="90dp"
+        android:text="SCAB"
+        android:background="@drawable/border"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <ScrollView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="616dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:orientation="vertical">
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:textColor="@color/black"
+                android:text="what causes scab?"
+                android:textSize="30.5dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+
+                />
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:background="@color/mintgreen"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+                android:text="The disease begins when fungal spores (conidia) are deposited onto aerial plant parts and invade by direct penetration or through natural openings and wounds. Lesions develop within 3 days after infection, and new spores are produced about 24 hours later. Wet weather and temperatures near or below 70ºF are highly favorable for disease development. Conidia are disseminated within and among fields on contaminated equipment, workers, insects, and long-distance in moist air. The pathogen survives between susceptible crops in and on infested crop debris, and in the soil as a weak saprophyte. C. cucumerinum may be seedborne."
+
+
+
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:text="scab control"
+                android:textSize="30.5dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+
+                />
+
+            <TextView
+
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:background="@color/mintgreen"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+                android:text="1. Biological Control: No biological control strategies have been developed for scab.\n2. Cultural Control
+Plant high quality seed free from the scab pathogen. Scab resistant varieties of cucumber are available and effectively control the disease, but resistance is not available in most other cucurbit crops. Practice a two-year or longer rotation to nonhosts. Carefully select fields with well-drained soils that allow for rapid leaf drying. Promote air movement within the plant canopy and rapid leaf drying by avoiding dense plantings, narrow row spacings, and excess and overhead irrigation. Orientating rows parallel to the prevailing wind direction can also help to reduce periods of leaf wetness in semi-arid environments.\n3. Chemical Control
+Chemical controls should be used in combination with cultural controls to be most effective."/>
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:text="Scab PREVENTION"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+
+                />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                android:background="@color/mintgreen"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:justificationMode="none"
+                android:fontFamily="monospace"
+                android:lineHeight="22.5dp"
+                android:text="Disease-prevention methods include planting resistant varieties or disease-free seeds, tubers, and corms; destroying diseased parts; removing weeds; rotating vegetables and flowers; and regularly spraying plants with fungicides" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
